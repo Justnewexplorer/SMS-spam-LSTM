@@ -89,3 +89,17 @@ These results are from one test split. Performance on unseen messages may differ
 
 Educational project. Refer to the dataset provider's terms for dataset usage and redistribution.
 
+
+## Confusion Matrix
+
+The confusion matrix below shows the performance of the LSTM model on the test dataset.
+
+![LSTM SMS Spam Detection Confusion Matrix](results/confusion_matrix.png)
+
+The model correctly classified 965 legitimate messages and 135 spam messages. It incorrectly flagged 1 legitimate message as spam and missed 14 spam messages.
+
+## Test Results
+
+- **Test Accuracy:** 98.65%
+- **Ham F1-score:** 99.23%
+- **Spam F1-score:** 94.74%
